@@ -11,7 +11,7 @@ def load_raw_data(df, sampling_rate, path):
     data = np.array([signal for signal, meta in data])
     return data
 
-path = 'D:/OneDrive/Documents/MECD/2021_2022/FECD/SignalProcessing/PROJECT/PTB/'
+path = '../PTB/'
 sampling_rate=100
 
 # load and convert annotation data
